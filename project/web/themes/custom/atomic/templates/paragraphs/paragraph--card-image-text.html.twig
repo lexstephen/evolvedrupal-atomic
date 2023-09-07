@@ -1,0 +1,7 @@
+{# kint(paragraph) #}
+{{ pattern('card_text_image', {
+    title: paragraph.field_title.0.value,
+    text: paragraph.field_text.0.value,
+    image: paragraph.field_image.0.entity.value,
+    ctas: paragraph.ctas.0.entity.value
+}, paragraph.field_image_alignment.0.value) }}

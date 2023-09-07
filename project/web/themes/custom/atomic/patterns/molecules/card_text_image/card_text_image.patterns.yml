@@ -1,0 +1,35 @@
+card_text_image:
+  label: 'Card text and image'
+  description: 'Places a card with optional left or right alignment as well as CTAs'
+  variants:
+    default: 
+      label: 'Default'
+      description: 'Left aligned is the default.'
+      variant: left
+    left:
+      label: 'Image on left'
+    right:
+      label: 'Image on right'
+  fields:
+    title:
+      label: 'Title'
+      description: 'Heading of card'
+      type: text
+      preview: 'This is the card title'
+    text:
+      label: 'Body text'
+      description: 'Content of card'
+      type: text
+      preview: 'This is the body text of the card'
+    image: 
+      label: 'Image'
+      description: 'Image for card'
+      type: image
+      preview: '<img src="https://placekitten.com/g/300/200">'
+    ctas:
+      label: 'CTAs'
+      description: 'Buttons at bottom of card'
+      type: text
+      preview: '<a href="#" class="btn btn-primary">Button</a> <a href="#" class="btn btn-arrow">This too</a>'
+
+      

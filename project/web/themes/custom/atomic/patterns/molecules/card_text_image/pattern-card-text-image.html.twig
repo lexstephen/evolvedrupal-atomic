@@ -1,0 +1,36 @@
+{% set classes = [
+    'row',
+    'card-text-image',
+    'my-5',
+    variant
+]%}
+
+
+<div{{attributes.addClass(classes)}}>
+
+{% set image_classes = [
+    'card_image',
+    'col-md-6',
+    variant == 'right'?'order-2':'order-1'
+] %}
+
+{% set text_classes = [
+    'card_text',
+    'col-md-6',
+    variant == 'right'?'order-1':'order-2'
+] %}
+
+
+    <div{{create_attribute().addClass(image_classes)}}>
+        {{ image }}
+    </div>
+    <div{{create_attribute().addClass(text_classes)}}>
+        <h3>{{ title }}</h3>
+
+        <p>{{ text }}</p>
+
+        <div class="card_text__ctas">
+            {{ ctas }}
+        </div>
+    </div>
+</div>
