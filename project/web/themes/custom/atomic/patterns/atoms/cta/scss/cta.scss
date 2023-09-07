@@ -1,0 +1,19 @@
+@import "src/sass/core";
+@import "bootstrap/scss/buttons";
+
+a {
+    &.btn {
+        text-transform: uppercase;
+
+        &.btn-arrow {
+            background-color: $white;
+            color: $primary;
+
+        }
+
+        &.btn-primary {
+            background-color: $primary;
+            color: $white;
+        }
+    }
+}

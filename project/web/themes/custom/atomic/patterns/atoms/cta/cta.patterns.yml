@@ -1,0 +1,32 @@
+cta: 
+  label: 'CTA'
+  description: 'A button component for Calls to Action'
+  variants: 
+    default:
+      label: 'Default CTA'
+      description: 'This is the default.'
+      variant: primary
+    primary:
+      label: 'Primary CTA'
+      description: 'Primary button style with green background'
+    arrow:
+      label: 'Arrow CTA'
+      description: 'Arrow style button'
+  fields:
+    text:
+      type: string
+      label: 'CTA text'
+      description: 'Link text used in CTA'
+      preview: 'See more'
+    url:
+      type: url
+      label: 'URL'
+      description: 'URL of the link'
+      preview: 'https://example.com'
+  libraries: 
+    -
+      cta:
+        css: 
+          component: 
+            dist/css/cta.min.css:
+              minified: true

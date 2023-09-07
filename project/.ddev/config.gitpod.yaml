@@ -1,0 +1,9 @@
+#ddev-gitpod-generated
+router_http_port: 8080
+router_https_port: 8443
+use_dns_when_possible: false
+
+additional_fqdns:
+- 8080-lexstephen-evolvedrupal-yk5py6jcnob.ws-us104.gitpod.io
+- 8025-lexstephen-evolvedrupal-yk5py6jcnob.ws-us104.gitpod.io
+- 8036-lexstephen-evolvedrupal-yk5py6jcnob.ws-us104.gitpod.io
